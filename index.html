@@ -1,10 +1,39 @@
 <hmtl>
 	<head>
-		<title>Mon site</title>
+		<title>Chess.com - Sondage d'appréciation</title>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<p>test</p>
-		<form name="Quesitonnaire">
+		<h2>Chess.com - Sondage d'appréciation</h2>
+		<p>Merci de prendre le temps de répondre à ce sondage au sujet du site web 
+		<a href="https://www.chess.com/" target="_blank">https://www.chess.com/</a>
+		. Veuillez noter que vos réponses seront enregistrées anonymement et ne seront utilisées qu'à des fins d'amélioration potentielles du site.</p>
+		<p>Voici l'interface du site web qui sera évalué au cours de ce questionnaire.</p>
+		
+		<a href="https://www.chess.com/" target="_blank">
+			<img src="Ressources/chesscom.png" href="https://www.chess.com/" />
+		</a>
+		
+		<form name="Quesitonnaire" class="questionnaire">
+			<h4>Questionnaire</h4>
+			1. Quel est votre niveaux de familiarité avec l'utilisation de ce site? <br />
+			<select name="familiarite">
+				<option value="tres">Très familié</option>
+				<option value="moyen">Moyennement familié</option>
+				<option value="peu">Peu familié</option>
+				<option value="tresPeu">Très peu familié</option>
+				<option value="pasDuTout">Pas du tout familié</option>
+			</select>
+			
+			<br />
+			<input type="submit" value="Soumettre le questionnaire"/>
 		</form>
+		
+		<footer>
+			<p>Site web conçu par:<br />
+			Yanic Mainville<br />
+			300060226<br />
+			ymain031@uOttawa.ca</p>
+		</footer>
 	</body>
 </html>

@@ -1,0 +1,38 @@
+body
+{
+	background-color: #464340;
+	color: #B4B3B2;
+	font-family: arial;
+}
+
+footer
+{
+	background-color:#272522;
+}
+
+footer p
+{
+	text-align: right;
+}
+
+h2
+{
+	text-align: center;
+}
+
+img
+{
+	max-width: 80%;
+	max-height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.questionnaire
+{
+	background-color: #EBECD0;
+	padding: 1% 5% 1% 5%;
+	margin: 1% 5% 1% 5%;
+	color: #000000 !important;
+}
