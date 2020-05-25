@@ -1,6 +1,7 @@
 <hmtl>
 	<head>
 		<title>Chess.com - Sondage d'appréciation</title>
+		<link rel="shortcut icon" href="Ressources/favicon.png" type="image/png">
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
@@ -15,18 +16,167 @@
 		</a>
 		
 		<form name="Quesitonnaire" class="questionnaire">
-			<h4>Questionnaire</h4>
-			1. Quel est votre niveaux de familiarité avec l'utilisation de ce site? <br />
+			<h4 class="centerText">Sondage</h4>
+			<div class="question">1. Quel est votre niveaux de familiarité avec l'utilisation de ce site?</div>
 			<select name="familiarite">
 				<option value="tres">Très familié</option>
 				<option value="moyen">Moyennement familié</option>
 				<option value="peu">Peu familié</option>
 				<option value="tresPeu">Très peu familié</option>
 				<option value="pasDuTout">Pas du tout familié</option>
-			</select>
+			</select><br />
+			<br />
+			
+			<div class="question">2. Laquelle, des fonctionnalitées suivantes, trouvez-vous la plus utile sur ce site?</div>
+			<input type="radio" name="func" value="play">Play<br />
+			<input type="radio" name="func" value="puzzle">Puzzle<br />
+			<input type="radio" name="func" value="learn">Learn<br />
+			<input type="radio" name="func" value="connect">Connect<br />
+			<input type="radio" name="func" value="today">Today<br />
+			<input type="radio" name="func" value="more">More<br />
+			<input type="radio" name="func" value="na">Sans opinion<br />
+			<br />
+			
+			<div class="question">3. Quelles sont les déclarations, parmis les suivantes, qui réflètent votre perception de ce site?<br />
+			<i>(Sélectionnez tout ce qui s'applique)</i></div>
+			<input type="checkbox" name="percFonction" value="percFonction">L'interface de ce site me permet de faire tout ce dont j'ai besoin.<br />
+			<input type="checkbox" name="percCoherence" value="percCoherence">L'interface de ce site utilise des icônes standard et est cohérente avec elle-même.<br />
+			<input type="checkbox" name="percEfficace" value="percEfficace">L'interface de ce site me permet de faire, dans un temps minimum, ce dont j'ai besoin.<br />
+			<input type="checkbox" name="percUtilisabilite" value="percUtilisabilite">L'interface de ce site est simple d'utilisation et est claire.<br />
+			<input type="checkbox" name="percFiabilite" value="percFiabilite">L'interface de ce site répond exactement tel que je le veux.<br />
+			<br />
+			
+			<div class="question">4. Indiquez, sur l'échelle de satisfaction suivante, votre opinion sur les points donnés.</div>
+			<table border = "0">
+				<tr>
+					<td>
+					</td>
+					<td class="addPadding centerText">
+						Sans opinion
+					</td>
+					<td class="addPadding centerText">
+						Très insatisfait
+					</td>
+					<td class="addPadding centerText">
+						Insatisfait
+					</td>
+					<td class="addPadding centerText">
+						Neutre
+					</td>
+					<td class="addPadding centerText">
+						Satisfait
+					</td>
+					<td class="addPadding centerText">
+						Très satisfait
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Choix des couleurs
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleColor" value="SO">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleColor" value="1">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleColor" value="2">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleColor" value="3">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleColor" value="4">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleColor" value="5">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Menu d'aide
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleHelp" value="SO">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleHelp" value="1">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleHelp" value="2">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleHelp" value="3">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleHelp" value="4">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleHelp" value="5">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Ressources en bas de page
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleRes" value="SO">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleRes" value="1">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleRes" value="2">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleRes" value="3">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleRes" value="4">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleRes" value="5">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Satisfaction générale
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleSG" value="SO">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleSG" value="1">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleSG" value="2">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleSG" value="3">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleSG" value="4">
+					</td>
+					<td class="centerText">
+						<input type="radio" name="echelleSG" value="5">
+					</td>
+				</tr>
+			</table>
+			<br />
+			
+			<div class="question">5. À quel point croyez-vous que l'interface de ce site est comparable à d'autres interfaces professionnelles?</div>
+			<textarea id="txtComparable" rows="7" cols="40"></textarea><br />
+			<br />
+			
+			<div class="question">6. Avez-vous des commentaires en ce qui est de l'interface de ce site?</div>
+			<textarea id="txtComentaires" rows="7" cols="40"></textarea><br />
+			<br />
 			
 			<br />
-			<input type="submit" value="Soumettre le questionnaire"/>
+			<div class="centerText">
+				<input class="button" type="submit" value="Soumettre le questionnaire">
+			</div>
 		</form>
 		
 		<footer>

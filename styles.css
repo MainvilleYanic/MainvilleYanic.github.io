@@ -8,6 +8,8 @@ body
 footer
 {
 	background-color:#272522;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 
 footer p
@@ -18,6 +20,14 @@ footer p
 h2
 {
 	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+h4
+{
+	font-size: 20px;
+	font-weight: bold;
 }
 
 img
@@ -27,6 +37,58 @@ img
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+
+p
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+table
+{
+	color: #000000 !important;
+}
+
+textarea
+{
+	font-family: arial;
+}
+
+.button
+{
+	border: 0;
+	box-shadow: none;
+	border-radius: 3px;
+	
+	padding: 18px 20px 18px 20px;
+	background-color: #E6912C;
+	
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.centerText
+{
+	text-align: center;
+}
+
+.centerRad
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.addPadding
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.question
+{
+	font-weight: bold;
 }
 
 .questionnaire
