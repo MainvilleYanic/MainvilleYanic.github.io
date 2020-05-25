@@ -32,8 +32,8 @@ h4
 
 img
 {
-	max-width: 80%;
-	max-height: 80%;
+	max-width: 100%;
+	max-height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -84,6 +84,15 @@ textarea
 {
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+.imghelper
+{
+	max-width: 80%;
+	max-height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .question
