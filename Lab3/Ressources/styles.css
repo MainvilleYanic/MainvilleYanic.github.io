@@ -1,0 +1,100 @@
+body
+{
+	background-color: #525659;
+	font-family: arial;
+	font-size: 22px;
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0;
+	width: 99%;
+	height: 100px;
+	text-align: right;
+	
+	background-color:#474B4C;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+pre
+{
+	font-family: arial;
+	font-size: 22px;
+}
+
+.button
+{
+	border: 0;
+	box-shadow: none;
+	border-radius: 2px;
+	font-size: 28px;
+}
+
+.footerBlank
+{
+	padding-top: 100px;
+}
+
+.lowerbuttons
+{
+	text-align: right;
+}
+
+.numBox
+{
+	width: 60px;
+	font-size: 22px;
+	text-align: right;
+	font-family: arial;
+}
+
+.onglet
+{
+	background-color: #898F93 !important;
+	display: none; /*Cette ligne est prise de https://www.w3schools.com/howto/howto_js_form_steps.asp*/
+	margin: 2% 5% 2% 5%;
+	padding: 2% 5% 2% 5%;
+}
+
+.smallBtn
+{
+	font-size: 22px !important;
+}
+
+.soustitre
+{
+	font-size: 50px;
+	font-family: impact;
+	text-align: center;
+}
+
+.tabIn
+{
+	padding-left: 3%;
+}
+
+.titre
+{
+	font-size: 96px;
+	font-family: impact;
+	text-align: center;
+}
+
+#buttonLine
+{
+	text-align: center;
+}
+
+#btnNext
+{
+	background-color: #45D157;
+	display: inline;
+}
+
+#btnPrev
+{
+	background-color: #A0A0A0;
+	display: none;
+}
