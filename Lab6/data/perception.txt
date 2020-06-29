@@ -1,0 +1,5 @@
+fonctionnalite=0
+coherence=0
+efficace=0
+utilisabilite=0
+fiabilite=0

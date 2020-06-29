@@ -1,0 +1,220 @@
+<hmtl>
+	<head>
+		<title>Chess.com - Sondage d'appréciation</title>
+		
+		<!--Ajoute Boostrap au programme. Tiré de https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-12">
+				<h2>Chess.com - Sondage d'appréciation</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12"><p>Merci de prendre le temps de répondre à ce sondage au sujet du site web
+				<a href="https://www.chess.com/" target="_blank">https://www.chess.com/</a>
+				. Veuillez noter que vos réponses seront enregistrées anonymement et ne seront utilisées qu'à des fins d'amélioration potentielles du site.</p>
+				<p>Voici l'interface du site web qui sera évalué au cours de ce questionnaire.</p>
+			</div>
+		</div>
+		
+		<div class="row"><div class="col-12">
+			<div class="imghelper">
+				<a href="https://www.chess.com/" target="_blank">
+					<img src="Ressources/chesscom.png" href="https://www.chess.com/" />
+				</a>
+			</div>
+		</div></div>
+		
+		<div class = "row">
+			<div class = "col-12">
+				<form id="frmQuesitonnaire" name="Quesitonnaire" class="questionnaire">
+					<h4 class="centerText">Sondage</h4>
+					<div class="question">1. Quel est votre niveaux de familiarité avec l'utilisation de ce site?</div>
+					<select id="slctFamiliarite" name="familiarite">
+						<option value="tres">Très familié</option>
+						<option value="moyen">Moyennement familié</option>
+						<option value="peu">Peu familié</option>
+						<option value="tresPeu">Très peu familié</option>
+						<option value="pasDuTout">Pas du tout familié</option>
+					</select><br />
+					<br />
+					
+					<div class="question">2. Laquelle, des fonctionnalitées suivantes, trouvez-vous la plus utile sur ce site?</div>
+					<input id="radFunc" type="radio" name="func" value="play">Play<br />
+					<input id="radFunc" type="radio" name="func" value="puzzle">Puzzle<br />
+					<input id="radFunc" type="radio" name="func" value="learn">Learn<br />
+					<input id="radFunc" type="radio" name="func" value="connect">Connect<br />
+					<input id="radFunc" type="radio" name="func" value="today">Today<br />
+					<input id="radFunc" type="radio" name="func" value="more">More<br />
+					<input id="radFunc" type="radio" name="func" value="na">Sans opinion<br />
+					<br />
+					
+					<div class="question">3. Quelles sont les déclarations, parmis les suivantes, qui réflètent votre perception de ce site?<br />
+					<i>(Sélectionnez tout ce qui s'applique)</i></div>
+					<input id="chkPercFonction" type="checkbox" name="percFonction" value="percFonction">L'interface de ce site me permet de faire tout ce dont j'ai besoin.<br />
+					<input id="chkPercCoherence" type="checkbox" name="percCoherence" value="percCoherence">L'interface de ce site utilise des icônes standard et est cohérente avec elle-même.<br />
+					<input id="chkPercEfficace" type="checkbox" name="percEfficace" value="percEfficace">L'interface de ce site me permet de faire, dans un temps minimum, ce dont j'ai besoin.<br />
+					<input id="chkPercUtilisabilite" type="checkbox" name="percUtilisabilite" value="percUtilisabilite">L'interface de ce site est simple d'utilisation et est claire.<br />
+					<input id="chkPercFiabilite" type="checkbox" name="percFiabilite" value="percFiabilite">L'interface de ce site répond exactement tel que je le veux.<br />
+					<br />
+					
+					<div class="question">4. Indiquez, sur l'échelle de satisfaction suivante, votre opinion sur les points donnés.</div>
+					<table border = "0">
+						<tr>
+							<td>
+							</td>
+							<td class="addPadding centerText">
+								Sans opinion
+							</td>
+							<td class="addPadding centerText">
+								Très insatisfait
+							</td>
+							<td class="addPadding centerText">
+								Insatisfait
+							</td>
+							<td class="addPadding centerText">
+								Neutre
+							</td>
+							<td class="addPadding centerText">
+								Satisfait
+							</td>
+							<td class="addPadding centerText">
+								Très satisfait
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Choix des couleurs
+							</td>
+							<td class="centerText">
+								<input id="radEchelleColor" type="radio" name="echelleColor" value="SO">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleColor" type="radio" name="echelleColor" value="Un">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleColor" type="radio" name="echelleColor" value="Deux">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleColor" type="radio" name="echelleColor" value="Trois">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleColor" type="radio" name="echelleColor" value="Quatre">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleColor" type="radio" name="echelleColor" value="Cinq">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Menu d'aide
+							</td>
+							<td class="centerText">
+								<input id="radEchelleHelp" type="radio" name="echelleHelp" value="SO">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleHelp" type="radio" name="echelleHelp" value="Un">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleHelp" type="radio" name="echelleHelp" value="Deux">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleHelp" type="radio" name="echelleHelp" value="Trois">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleHelp" type="radio" name="echelleHelp" value="Quatre">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleHelp" type="radio" name="echelleHelp" value="Cinq">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Ressources en bas de page
+							</td>
+							<td class="centerText">
+								<input id="radEchelleRes" type="radio" name="echelleRes" value="SO">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleRes" type="radio" name="echelleRes" value="Un">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleRes" type="radio" name="echelleRes" value="Deux">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleRes" type="radio" name="echelleRes" value="Trois">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleRes" type="radio" name="echelleRes" value="Quatre">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleRes" type="radio" name="echelleRes" value="Cinq">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Satisfaction générale
+							</td>
+							<td class="centerText">
+								<input id="radEchelleSG" type="radio" name="echelleSG" value="SO">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleSG" type="radio" name="echelleSG" value="Un">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleSG" type="radio" name="echelleSG" value="Deux">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleSG" type="radio" name="echelleSG" value="Trois">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleSG" type="radio" name="echelleSG" value="Quatre">
+							</td>
+							<td class="centerText">
+								<input id="radEchelleSG" type="radio" name="echelleSG" value="Cinq">
+							</td>
+						</tr>
+					</table>
+					<br />
+					
+					<div class="question">5. À quel point croyez-vous que l'interface de ce site est comparable à d'autres interfaces professionnelles?</div>
+					<textarea id="txtComparable" rows="7" cols="40"></textarea><br />
+					<br />
+					
+					<div class="question">6. Avez-vous des commentaires en ce qui est de l'interface de ce site?</div>
+					<textarea id="txtCommentaires" rows="7" cols="40"></textarea><br />
+					<br />
+					
+					<br />
+					<div class="centerText">
+						<input id="btnSubmit" class="button" type="submit" form="frmQuesitonnaire" formmethod="post" value="Soumettre le questionnaire">
+					</div>
+					<div class="centerText">
+						<p id="txtEndMessage" class="endMessage">Merci d'avoir participé au sondage!</p>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<footer>
+			<p>Site web conçu par:<br />
+			Yanic Mainville<br />
+			300060226<br />
+			ymain031@uOttawa.ca</p>
+		</footer>
+		
+		<!--Ajoute JQuery au programme. Tiré de https://www.w3schools.com/jquery/jquery_get_started.asp -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+		<!--Ajoute Boostrap au programme. Tiré de https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
+		<!--<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		
+		<script src="script.js"></script>
+	</body>
+</html>

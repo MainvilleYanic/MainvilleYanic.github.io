@@ -1,0 +1,5 @@
+tres=0
+moyen=0
+peu=0
+tresPeu=0
+pasDuTout=0
