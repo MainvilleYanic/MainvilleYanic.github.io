@@ -1,7 +1,0 @@
-play=0
-puzzle=0
-learn=0
-connect=0
-today=0
-more=0
-na=0

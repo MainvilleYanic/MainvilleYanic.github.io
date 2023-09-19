@@ -1,5 +1,5 @@
-﻿# SEG3525WebSite
-Site web utilisé pour le cours SEG3525.
+﻿# YanicMainville
+Site web utilisé pour l'université.
 
 Yanic Mainville
 300060226
